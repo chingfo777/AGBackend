@@ -76,11 +76,11 @@ DATABASES = {
         'NAME': 'AskGemini',
         'CLIENT': {
             'host': 'mongodb+srv://sshil958:g8B1KGJ0saNG99cQ@cluster0.d4xcxm5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
-            'port': 27017,
-            'username': 'sshil958',
-            'password': 'g8B1KGJ0saNG99cQ',
-            'authSource': 'admin',
-            'authMechanism': 'SCRAM-SHA-1',            
+            # 'port': 27017,
+            # 'username': 'sshil958',
+            # 'password': 'g8B1KGJ0saNG99cQ',
+            # 'authSource': 'admin',
+            # 'authMechanism': 'SCRAM-SHA-1',            
         }
     }
 }
