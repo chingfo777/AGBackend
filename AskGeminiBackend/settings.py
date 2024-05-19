@@ -80,8 +80,7 @@ DATABASES = {
             'username': 'sshil958',
             'password': 'g8B1KGJ0saNG99cQ',
             'authSource': 'admin',
-            'authMechanism': 'SCRAM-SHA-1',
-            'ssl':True,
+            'authMechanism': 'SCRAM-SHA-1',            
         }
     }
 }
