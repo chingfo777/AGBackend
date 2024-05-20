@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-c5iq+pe%8+++a&_4v10z348tb#ndtu%q(4k!2sg#3z=zq-&zmm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://agbackend-1.onrender.com/User/v1/users']
+ALLOWED_HOSTS = ['agbackend-1.onrender.com']
 
 
 # Application definition
