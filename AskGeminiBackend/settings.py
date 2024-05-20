@@ -1,3 +1,4 @@
+import dj_database_url
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -84,6 +85,9 @@ DATABASES = {
         }
     }
 }
+
+DATABASES['default'] = dj_database_url.parse("postgres://askgemini_django_render_user:P1gtkTxzlFyBeq1r2r3syvYA806nfn8Q@dpg-cp5fktq1hbls73fek7gg-a.oregon-postgres.render.com/askgemini_django_render")
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
